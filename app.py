@@ -47,5 +47,5 @@ if url == 'https://taxifare.lewagon.ai/predict':
 ## Finally, we can display the prediction to the user
 '''
 from PIL import Image
-image= Image.open('images/map.png.jpg')
+image= Image.open('images/map.png')
 st.image(image,caoption='map',use_column_width=False)
